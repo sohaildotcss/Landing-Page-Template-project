@@ -145,6 +145,7 @@ button {
 @media (max-width: 426px) {
   .hero .hero {
     flex-direction: column;
+    margin: 0;
   }
   .hero .first-vector,
   .hero .vector-img {
@@ -153,6 +154,7 @@ button {
   .hero .left-section {
     margin: 0;
     padding: 50px;
+    padding-left: 0;
   }
   .hero .left-section .left-section-h1 {
     display: block;
@@ -299,6 +301,11 @@ button {
 .services .services-cards .services-card3 img {
   margin-bottom: 39.2px;
 }
+@media (max-width: 768px) {
+  .services .first-vector {
+    display: none;
+  }
+}
 @media (max-width: 426px) {
   .services .services-header h1 {
     font-size: 24px;
@@ -391,7 +398,6 @@ button {
   .pricing .pricing-lists-info {
     margin-bottom: 35px;
     justify-content: center;
-    align-items: center;
   }
   .pricing .pricing-lists-info p {
     font-size: 18px;
@@ -526,7 +532,7 @@ button {
 }
 @media (max-width: 768px) {
   .testinomials {
-    margin-bottom: 100px;
+    margin-bottom: 180px;
   }
   .testinomials .testinomials-bg {
     width: 458px;
@@ -585,9 +591,6 @@ button {
   color: #000000;
 }
 @media (max-width: 768px) {
-  .partners {
-    margin-bottom: 131px;
-  }
   .partners .partners-header h1 {
     margin-bottom: 50px;
   }

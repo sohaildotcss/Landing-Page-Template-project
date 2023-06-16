@@ -157,6 +157,7 @@ button {
   @media (max-width: 426px) {
     .hero {
       flex-direction: column;
+      margin: 0;
     }
     .first-vector,
     .vector-img {
@@ -165,6 +166,7 @@ button {
     .left-section {
       margin: 0;
       padding: 50px;
+      padding-left: 0;
 
       .left-section-h1 {
         display: block;
@@ -330,6 +332,9 @@ button {
   }
   //Tablet Responsve Styles
   @media (max-width: 768px) {
+    .first-vector{
+      display: none;
+    }
 
   }
   //Mobile Responsve Styles
@@ -431,7 +436,6 @@ button {
     .pricing-lists-info {
       margin-bottom: 35px;
       justify-content: center;
-      align-items: center;
       p {
         font-size: 18px;
       }
@@ -579,7 +583,7 @@ button {
 
   //Tablet Responsive Styles
   @media (max-width: 768px) {
-    margin-bottom: 100px;
+    margin-bottom: 180px;
     .testinomials-bg {
       width: 458px;
       height: 1053px;
@@ -640,7 +644,6 @@ button {
   }
   //Tablet Responsve Styles
   @media (max-width: 768px) {
-    margin-bottom: 131px;
     .partners-header h1 {
       margin-bottom: 50px;
     }
