@@ -164,6 +164,8 @@ button {
     }
     .left-section {
       margin: 0;
+      padding: 50px;
+
       .left-section-h1 {
         display: block;
         margin: 0;
@@ -178,7 +180,7 @@ button {
 
       .left-section-p {
         margin: 0;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
 
         padding-bottom: 15px;
         padding-left: 15px;
@@ -268,6 +270,9 @@ button {
       position: absolute;
       top: 0;
     }
+          .features-header h3{
+        font-size: 24px;
+      }
   }
 }
 
@@ -292,8 +297,8 @@ button {
   }
   .services-cards {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 52px;
     margin: 0px 212px 0px 111px;
@@ -321,6 +326,16 @@ button {
     .services-card2 img,
     .services-card3 img {
       margin-bottom: 39.2px;
+    }
+  }
+  //Tablet Responsve Styles
+  @media (max-width: 768px) {
+
+  }
+  //Mobile Responsve Styles
+  @media (max-width: 426px) {
+        .services-header h1 {
+      font-size: 24px;
     }
   }
 }
@@ -566,16 +581,22 @@ button {
   @media (max-width: 768px) {
     margin-bottom: 100px;
     .testinomials-bg {
-      width: 500px;
-      height: 1097px;
+      width: 458px;
+      height: 1053px;
     }
     .testinomial-cards {
       flex-direction: column;
+    }
+    .circle {
+      top: 526px;
     }
   }
 
   //Mobile Responsive Styles
   @media (max-width: 426px) {
+    .testinomials-header h1 {
+      font-size: 24px;
+    }
     .testinomials-bg {
       width: 350px;
       .testinomials-bg-header {
@@ -587,6 +608,11 @@ button {
     }
     .absolute {
       left: 30px;
+    }
+    .circle {
+      width: 50px;
+      height: 51px;
+      right: -23px;
     }
   }
 }
@@ -601,7 +627,6 @@ button {
   }
   .partners-img {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 201px;
@@ -611,6 +636,36 @@ button {
       text-align: center;
       letter-spacing: 0px;
       color: #000000;
+    }
+  }
+  //Tablet Responsve Styles
+  @media (max-width: 768px) {
+    margin-bottom: 131px;
+    .partners-header h1 {
+      margin-bottom: 50px;
+    }
+    .partners-img {
+      gap: 90px;
+    }
+  }
+
+  //Mobile Responsve Styles
+  @media (max-width: 426px) {
+    padding-top: 70px;
+    .partners-header h1 {
+      font-size: 24px;
+    }
+    .partners-img {
+      flex-direction: column;
+      gap: 55px;
+      .img {
+        img {
+          margin-bottom: 0;
+        }
+        h2 {
+          margin: 0;
+        }
+      }
     }
   }
 }

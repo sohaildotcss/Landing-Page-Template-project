@@ -152,6 +152,7 @@ button {
   }
   .hero .left-section {
     margin: 0;
+    padding: 50px;
   }
   .hero .left-section .left-section-h1 {
     display: block;
@@ -166,7 +167,7 @@ button {
   }
   .hero .left-section .left-section-p {
     margin: 0;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     padding-bottom: 15px;
     padding-left: 15px;
     line-height: 1;
@@ -243,6 +244,9 @@ button {
     position: absolute;
     top: 0;
   }
+  .features .features-header h3 {
+    font-size: 24px;
+  }
 }
 
 .services {
@@ -267,8 +271,8 @@ button {
 }
 .services .services-cards {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 52px;
   margin: 0px 212px 0px 111px;
@@ -294,6 +298,11 @@ button {
 .services .services-cards .services-card2 img,
 .services .services-cards .services-card3 img {
   margin-bottom: 39.2px;
+}
+@media (max-width: 426px) {
+  .services .services-header h1 {
+    font-size: 24px;
+  }
 }
 
 .pricing {
@@ -520,14 +529,20 @@ button {
     margin-bottom: 100px;
   }
   .testinomials .testinomials-bg {
-    width: 500px;
-    height: 1097px;
+    width: 458px;
+    height: 1053px;
   }
   .testinomials .testinomial-cards {
     flex-direction: column;
   }
+  .testinomials .circle {
+    top: 526px;
+  }
 }
 @media (max-width: 426px) {
+  .testinomials .testinomials-header h1 {
+    font-size: 24px;
+  }
   .testinomials .testinomials-bg {
     width: 350px;
   }
@@ -539,6 +554,11 @@ button {
   }
   .testinomials .absolute {
     left: 30px;
+  }
+  .testinomials .circle {
+    width: 50px;
+    height: 51px;
+    right: -23px;
   }
 }
 
@@ -553,7 +573,6 @@ button {
 }
 .partners .partners-img {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 201px;
@@ -564,6 +583,35 @@ button {
   text-align: center;
   letter-spacing: 0px;
   color: #000000;
+}
+@media (max-width: 768px) {
+  .partners {
+    margin-bottom: 131px;
+  }
+  .partners .partners-header h1 {
+    margin-bottom: 50px;
+  }
+  .partners .partners-img {
+    gap: 90px;
+  }
+}
+@media (max-width: 426px) {
+  .partners {
+    padding-top: 70px;
+  }
+  .partners .partners-header h1 {
+    font-size: 24px;
+  }
+  .partners .partners-img {
+    flex-direction: column;
+    gap: 55px;
+  }
+  .partners .partners-img .img img {
+    margin-bottom: 0;
+  }
+  .partners .partners-img .img h2 {
+    margin: 0;
+  }
 }
 
 .footer {
