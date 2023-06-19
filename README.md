@@ -42,7 +42,7 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 ## License
 
-This landing page template is released under the [MIT License](LICENSE). You are free to use, modify, and distribute the template for personal and commercial purposes.
+You are free to use, modify, and distribute the template for personal and commercial purposes.
 
 ## Acknowledgements
 
