@@ -1,5 +1,5 @@
 # Responsive Landing Page Template
-## You can see the preview [here](https://sohaildotcss.github.io/).
+## You can see the preview [here](https://sohaildotcss.github.io/Landing-Page-Template-project/).
 This repository contains a fully responsive landing page template built using Bootstrap and SASS. The template is designed to adapt and look great on various screen sizes and devices.
 
 ## Features
